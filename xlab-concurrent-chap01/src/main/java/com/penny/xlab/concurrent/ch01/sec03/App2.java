@@ -1,4 +1,4 @@
-package com.penny.xlab.concurrent.ch01.sec04;
+package com.penny.xlab.concurrent.ch01.sec03;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -9,7 +9,7 @@ import java.util.concurrent.Semaphore;
  * 中permits并不是最终的许可数量，仅仅是初始的状态值
  */
 @Slf4j
-public class App {
+public class App2 {
     public static void main(String[] args) {
         try {
             Semaphore semaphore = new Semaphore(5);
