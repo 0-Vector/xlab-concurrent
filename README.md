@@ -1,2 +1,2 @@
 # xlab-concurrent
-并发编程练习demo
+Java并发编程API练习的demo
